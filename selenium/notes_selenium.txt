@@ -1,7 +1,8 @@
 ============================================================
 Installing packages
-SOURCE: https://behave.readthedocs.io/en/latest/install.html#using-pip-or
+
 SOURCE: https://github.com/behave/behave
+SOURCE: https://opensource.com/article/18/5/behavior-driven-python
 ============================================================
 
 https://launchpad.net/ubuntu/xenial/armhf/chromium-chromedriver/65.0.3325.181-0ubuntu0.16.04.1
@@ -14,13 +15,13 @@ Generic:
 		- run graphical applications without a display
 		- having the ability to take screenshots
 
-Python: install Selenium
+Python: install and run Selenium
 	cmd: sudo pip install selenium
 	cmd: sudo pip install PyVirtualDisplay
 		for running the Pi headless. recommended for future projects
 	cmd: sudo pip install xvfbwrapper
 	cmd: python selenium_test.py
-Python: install "cucumber like"
+Python: install and run "cucumber like"
 	cmd: python -m pip uninstall pip
 	cmd: python -m pip install --upgrade pip
 	cmd: pip install behave <== DOESN'T WORK DUE TO pip version 10.0
@@ -32,14 +33,16 @@ Python: install "cucumber like"
 	*** If there is an error ***
 	cmd: sudo python -m pip install behave
 	cmd: sudo python3 -m pip install behave
+	cmd: behave example.feature
 Python: update all packages
 	cmd: sudo python -m pip install --upgrade pip
-	cmd: sudo pip list
-		pip freeze > frozen-requirements.txt
-		pip install -r frozen-requirements.txt
 
 ------------------------------------------------------------
 tmp
 ------------------------------------------------------------
+
+cmd: sudo pip list
+	pip freeze > frozen-requirements.txt
+	pip install -r frozen-requirements.txt
 
 Java code: https://pastebin.com/FmhEdVF1
