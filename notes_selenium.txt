@@ -1,8 +1,6 @@
 ============================================================
 Installing packages
 
-SOURCE: https://github.com/behave/behave
-SOURCE: https://opensource.com/article/18/5/behavior-driven-python
 ============================================================
 
 https://launchpad.net/ubuntu/xenial/armhf/chromium-chromedriver/65.0.3325.181-0ubuntu0.16.04.1
