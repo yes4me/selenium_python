@@ -41,19 +41,19 @@ Personal projects code: https://github.com/yes4me
 ## Setup
 ---
 
-cmd: sudo python3 -m pip install selenium
-cmd: sudo python3 -m pip install behave
-cmd: sudo python3 -m pip install --upgrade pip
+* cmd: sudo python3 -m pip install selenium
+* cmd: sudo python3 -m pip install behave
+* cmd: sudo python3 -m pip install --upgrade pip
 
 [Get ARM version](https://launchpad.net/ubuntu/xenial/armhf/chromium-chromedriver/65.0.3325.181-0ubuntu0.16.04.1)
 e.g.: chromium-chromedriver_65.0.3325.181-0ubuntu0.16.04.1_armhf
 
 Optional:
 
-cmd: sudo python3 -m pip install PyVirtualDisplay
-cmd: sudo python3 -m pip install xvfbwrapper
-cmd: sudo apt-get install iceweasel
-cmd: sudo apt-get install xvfb
+* cmd: sudo python3 -m pip install PyVirtualDisplay
+* cmd: sudo python3 -m pip install xvfbwrapper
+* cmd: sudo apt-get install iceweasel
+* cmd: sudo apt-get install xvfb
 
 ## Running the program
 ---
