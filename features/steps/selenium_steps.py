@@ -2,11 +2,11 @@ from behave import given, when, then, step
 from selenium import webdriver
 import time
 
-driver = webdriver.Chrome('/usr/lib/chromium-browser/chromedriver')
-
 @given(u'user goes to {website}')
 def step_impl(context, website):
-	driver.get(website)
+    global driver
+    driver = webdriver.Chrome('/usr/lib/chromium-browser/chromedriver')
+    driver.get(website)
 
 @when(u'user searches "{text_to_search}"')
 def step_impl(context, text_to_search):
@@ -16,5 +16,5 @@ def step_impl(context, text_to_search):
 
 @then(u'user closes browser')
 def step_impl(context):
-    time.sleep(3)
+    # time.sleep(3)
     driver.quit()

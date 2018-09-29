@@ -62,6 +62,7 @@ Optional:
 
 cmd: behave
 cmd: behave example.feature
+cmd: behave --tags @basic-test
 
 ## Lexicon
 ---
