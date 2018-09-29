@@ -14,9 +14,10 @@ This document will show you how to:
 
 0. [Introduction](#Introduction)
 1. [Prerequisites](#Prerequisites)
-2. [Running the program](#Running-the-program)
-3. [Lexicon](#Lexicon)
-4. [Sources](#Sources)
+2. [Setup](#Setup)
+3. [Running the program](#Running-the-program)
+4. [Lexicon](#Lexicon)
+5. [Sources](#Sources)
 
 ## Introduction
 ---
