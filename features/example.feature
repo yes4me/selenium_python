@@ -6,6 +6,18 @@ Feature: Showing off behave
     When we implement 5 tests
     Then behave will test them for us!
 
+  @multipleinput-test
+  Scenario Outline: Add guinea pigs
+    Given the basket has "<initial>" guinea pigs
+    When "<more>" guinea pigs are added to the basket
+    Then the basket contains "<total>" guinea pigs
+
+    Examples: Guinea pigs Counts
+      | initial | more | total |
+      |    0    |   1  |   1   |
+      |    1    |   2  |   3   |
+      |    5    |   4  |   9   |
+
   @selenium-test
   Scenario: Run a simple test pm google.com
     Given user goes to http://www.google.com
