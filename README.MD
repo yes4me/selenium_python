@@ -61,7 +61,7 @@ Optional:
 ---
 
 cmd: behave
-
+cmd: behave example.feature
 
 ## Lexicon
 ---

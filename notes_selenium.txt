@@ -3,37 +3,12 @@ Installing packages
 
 ============================================================
 
-https://launchpad.net/ubuntu/xenial/armhf/chromium-chromedriver/65.0.3325.181-0ubuntu0.16.04.1
-	Get ARM version
-	e.g.: chromium-chromedriver_65.0.3325.181-0ubuntu0.16.04.1_armhf
-
 Generic:
-	cmd: sudo apt-get install iceweasel
+	cmd: sudo pip install PyVirtualDisplay
+		for running the Pi headless. recommended for future projects
 	cmd: sudo apt-get install xvfb
 		- run graphical applications without a display
 		- having the ability to take screenshots
-
-Python: install and run Selenium
-	cmd: sudo pip install selenium
-	cmd: sudo pip install PyVirtualDisplay
-		for running the Pi headless. recommended for future projects
-	cmd: sudo pip install xvfbwrapper
-	cmd: python selenium_test.py
-Python: install and run "cucumber like"
-	cmd: python -m pip uninstall pip
-	cmd: python -m pip install --upgrade pip
-	cmd: pip install behave <== DOESN'T WORK DUE TO pip version 10.0
-		Traceback (most recent call last):
-		  File "/usr/bin/pip", line 9, in <module>
-			from pip import main
-		ImportError: cannot import name main
-
-	*** If there is an error ***
-	cmd: sudo python -m pip install behave
-	cmd: sudo python3 -m pip install behave
-	cmd: behave example.feature
-Python: update all packages
-	cmd: sudo python -m pip install --upgrade pip
 
 ------------------------------------------------------------
 tmp
