@@ -1,5 +1,8 @@
 Feature: Testing Python module behave
 
+  Background: some requirement of this test
+    Given some setup condition
+
   @basic-test
   Scenario: Run a simple test
     Given we have behave installed

@@ -1,9 +1,14 @@
 from behave import given, when, then, step
 
 
+@given(u'some setup condition')
+def step_impl(context):
+    print("==> BACKGROUND")
+    pass
+
+
 @given(u'we have behave installed')
 def step_impl(context):
-    print("First step")
     pass
 
 
