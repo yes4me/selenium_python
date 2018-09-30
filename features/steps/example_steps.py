@@ -19,7 +19,6 @@ def step_impl(context):
     assert context.failed is False
     assert context.tests_count >= 0
 
-
 @given(u'the basket has "{number:d}" guinea pigs')
 def step_impl(context, number):
     context.basket = number
