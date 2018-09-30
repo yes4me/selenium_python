@@ -59,8 +59,10 @@ Optional:
 
 Fix git:
 - nano .git/hooks/pre-commit
-    ```#!/bin/sh
-    flake8 .```
+    ```
+    #!/bin/sh
+    flake8 .
+    ```
 - chmod +x .git/hooks/pre-commit
 
 ## Running the program
