@@ -1,4 +1,4 @@
-Feature: Showing off behave
+Feature: Testing Python module behave
 
   @basic-test
   Scenario: Run a simple test
@@ -6,7 +6,7 @@ Feature: Showing off behave
     When we implement 5 tests
     Then behave will test them for us!
 
-  @multipleinput-test
+  @multipleinputs-test
   Scenario Outline: Add guinea pigs
     Given the basket has "<initial>" guinea pigs
     When "<more>" guinea pigs are added to the basket
