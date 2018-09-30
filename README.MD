@@ -38,6 +38,7 @@ Personal projects code: https://github.com/yes4me
 
 * Raspberry Pi B+
 * Python 3.5.3
+* install any needed module using pip
 
 ## Setup
 ---
