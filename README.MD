@@ -77,4 +77,4 @@ Optional:
     * [Github behave](https://github.com/behave/behave)
     * [Python behave](https://opensource.com/article/18/5/behavior-driven-python)
     * [Python behave print](https://stackoverflow.com/questions/25150404/how-can-i-see-print-statements-in-behave-bdd)
-    * [Python lint flake8](https://simpleisbetterthancomplex.com/packages/2016/08/05/flake8.html)
+    * [Python lint flake8](http://flake8.pycqa.org/en/latest/user/configuration.html)
