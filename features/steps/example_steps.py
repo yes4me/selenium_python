@@ -3,7 +3,7 @@ from behave import given, when, then, step
 
 @given(u'some setup condition')
 def step_impl(context):
-    print("==> BACKGROUND")
+    print("--> BACKGROUND")
     pass
 
 
