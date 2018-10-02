@@ -1,5 +1,10 @@
+from selenium import webdriver
+from lib.browser import Browser
+
+
 def before_all(context):
     print("==> Executing  before_all")
+    context.browser = Browser()
 
 
 def before_feature(context, feature):
@@ -20,3 +25,4 @@ def after_feature(context, feature):
 
 def after_all(context):
     print("==> Executing after_all")
+    context.browser.close()
