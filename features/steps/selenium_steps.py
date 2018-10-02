@@ -1,9 +1,12 @@
 from behave import given, when, then, step
+from page_objects.google_home import GoogleHomePage
 
 
 @given(u'user goes to {website}')
 def step_impl(context, website):
-    context.browser.go(website)
+    # context.browser.navigate(website)
+    context.google = GoogleHomePage()
+    context.google.navigate()
 
 
 @when(u'user searches "{text_to_search}"')

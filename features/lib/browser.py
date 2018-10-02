@@ -7,7 +7,7 @@ class Browser():
     def __init__(self):
         pass
 
-    def go(self, website):
+    def navigate(self, website):
         self.driver.get(website)
 
     def close(self):
