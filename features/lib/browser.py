@@ -7,8 +7,14 @@ class Browser():
     def __init__(self):
         pass
 
-    def navigate(self, website):
-        self.driver.get(website)
+    def navigate(self, url):
+        self.driver.get(url)
+
+    def type(self, selector, text):
+        selector.send_keys(text)
+
+    def submit(self, selector):
+        selector.submit()
 
     def close(self):
         self.driver.close()
