@@ -93,3 +93,4 @@ Fix git:
     * [Python behave](https://behave.readthedocs.io/en/latest/)
     * [how to print with behave](https://stackoverflow.com/questions/25150404/how-can-i-see-print-statements-in-behave-bdd)
     * [Python lint flake8](http://flake8.pycqa.org/en/latest/user/configuration.html)
+    * [Python Selenium](https://selenium-python.readthedocs.io/locating-elements.html)
