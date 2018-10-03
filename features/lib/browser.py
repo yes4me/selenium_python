@@ -7,6 +7,12 @@ class Browser():
     def __init__(self):
         pass
 
+    def find_element_by_name(self, name):
+        return self.driver.find_element_by_name(name)
+
+    def find_element_by_css(self, selector):
+        return self.driver.find_element_by_css_selector(selector)
+
     def navigate(self, url):
         self.driver.get(url)
 

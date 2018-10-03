@@ -9,6 +9,6 @@ class GoogleHomePage(Browser):
         Browser().navigate(self.HOME)
 
     def search(self, text_to_search):
-        selector = self.driver.find_element_by_name('q')
-        Browser().type(selector, text_to_search)
-        Browser().submit(selector)
+        element = Browser().find_element_by_name('q')
+        Browser().type(element, text_to_search)
+        Browser().submit(element)
