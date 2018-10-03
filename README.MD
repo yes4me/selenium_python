@@ -58,6 +58,12 @@ Optional:
 * cmd: sudo apt-get install iceweasel
 * cmd: sudo apt-get install xvfb
 
+Files:
+* .gitgnore: Git ignore patterns
+* behave.ini: behave (~cucumber) configuration files
+* README.MD: This readme file
+* setup.cfg: linter "flake8" configuration
+
 Fix git:
 - nano .git/hooks/pre-commit
     ```
