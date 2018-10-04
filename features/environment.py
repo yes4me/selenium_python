@@ -24,4 +24,4 @@ def after_feature(context, feature):
 
 def after_all(context):
     print("==> Executing after_all")
-    context.browser.close()
+    context.browser.close_browser()

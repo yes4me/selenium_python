@@ -41,14 +41,17 @@ class Browser(object):
     def navigate(self, url):
         self.driver.get(url)
 
+    def close_browser(self):
+        self.driver.close()
+
     def type(self, selector, text):
         selector.send_keys(text)
+
+    def clear_text(self, selector):
+        selector.clear()
 
     def click(self, selector):
         selector.click()
 
     def submit(self, selector):
         selector.submit()
-
-    def close(self):
-        self.driver.close()
