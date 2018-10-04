@@ -6,3 +6,4 @@ class BasePage(Browser):
 
     def __init__(self):
         super(BasePage, self).__init__()
+        self.HOME = "http://www.google.com"

@@ -4,7 +4,6 @@ from page_objects.base_page import BasePage
 class GoogleHomePage(BasePage):
     def __init__(self):
         super(GoogleHomePage, self).__init__()
-        self.HOME = "http://www.google.com"
 
     def visit(self):
         self.navigate(self.HOME)

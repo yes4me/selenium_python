@@ -2,10 +2,8 @@ from selenium import webdriver
 
 
 class Browser(object):
-    driver = webdriver.Chrome('/usr/lib/chromium-browser/chromedriver')
-
     def __init__(self):
-        pass
+        self.driver = webdriver.Chrome('/usr/lib/chromium-browser/chromedriver')
 
     def find_element_by_id(self, id):
         return self.driver.find_element_by_id(id)
