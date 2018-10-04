@@ -1,7 +1,7 @@
 from selenium import webdriver
 
 
-class Browser():
+class Browser(object):
     driver = webdriver.Chrome('/usr/lib/chromium-browser/chromedriver')
 
     def __init__(self):
@@ -36,6 +36,9 @@ class Browser():
 
     def type(self, selector, text):
         selector.send_keys(text)
+
+    def click(self, selector):
+        selector.click()
 
     def submit(self, selector):
         selector.submit()

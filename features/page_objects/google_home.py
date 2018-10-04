@@ -1,9 +1,11 @@
 from selenium.webdriver.common.by import By
 from lib.browser import Browser
+from page_objects.base_page import BasePage
 
 
-class GoogleHomePage(Browser):
+class GoogleHomePage(BasePage):
     def __init__(self):
+        super(GoogleHomePage, self).__init__()
         self.HOME = "http://www.google.com"
 
     def navigate(self):
