@@ -6,7 +6,7 @@ from page_objects.google_home import GoogleHomePage
 def step_impl(context, website):
     # context.browser.navigate(website)
     context.google = GoogleHomePage()
-    context.google.navigate()
+    context.google.visit()
 
 
 @when(u'user searches "{text_to_search}"')
