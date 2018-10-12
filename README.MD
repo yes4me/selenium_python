@@ -47,16 +47,8 @@ Required:
 
 * [Get ARM version](https://launchpad.net/ubuntu/xenial/armhf/chromium-chromedriver/65.0.3325.181-0ubuntu0.16.04.1)
 e.g.: chromium-chromedriver_65.0.3325.181-0ubuntu0.16.04.1_armhf
-* cmd: sudo python3 -m pip install selenium
-* cmd: sudo python3 -m pip install behave
 * cmd: sudo python3 -m pip install --upgrade pip
-
-Optional:
-
-* cmd: sudo python3 -m pip install PyVirtualDisplay
-* cmd: sudo python3 -m pip install xvfbwrapper
-* cmd: sudo apt-get install iceweasel
-* cmd: sudo apt-get install xvfb
+* cmd: sudo python setup install
 
 Files:
 * .gitgnore: Git ignore patterns
@@ -95,3 +87,4 @@ Fix git:
     * [how to print with behave](https://stackoverflow.com/questions/25150404/how-can-i-see-print-statements-in-behave-bdd)
     * [Python lint flake8](http://flake8.pycqa.org/en/latest/user/configuration.html)
     * [Python Selenium](https://selenium-python.readthedocs.io/locating-elements.html)
+    * [Open source license](https://choosealicense.com/)
