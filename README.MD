@@ -63,6 +63,7 @@ Files:
 * behave.ini: behave (~cucumber) configuration files
 * README.MD: This readme file
 * setup.cfg: linter "flake8" configuration
+* setup.py: Python setup. run it using "python setup.py --help"
 
 Fix git:
 - nano .git/hooks/pre-commit

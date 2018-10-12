@@ -11,15 +11,15 @@ Feature: Testing Python module behave
 
   @multipleinputs-test
   Scenario Outline: Add guinea pigs
-    Given the basket has "<initial>" guinea pigs
+    Given the basket has "<number>" guinea pigs
     When "<more>" guinea pigs are added to the basket
-    Then the basket contains "<total>" guinea pigs
+    Then the basket should contain "<total>" guinea pigs
 
     Examples: Guinea pigs Counts
-      | initial | more | total |
-      |    0    |   1  |   1   |
-      |    1    |   2  |   3   |
-      |    5    |   4  |   9   |
+      | number | more | total |
+      |    0   |   1  |   1   |
+      |    1   |   2  |   3   |
+      |    5   |   4  |   9   |
 
   @selenium-test
   Scenario: Run a simple test pm google.com
