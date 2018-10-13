@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from page_objects.base_page import BasePage
 
 

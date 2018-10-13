@@ -23,6 +23,6 @@ Feature: Testing Python module behave
 
   @selenium-test
   Scenario: Run a simple test pm google.com
-    Given user goes to http://www.google.com
+    Given user goes to "http://www.google.com"
     When user searches "123"
     Then user closes browser

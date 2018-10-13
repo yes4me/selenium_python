@@ -1,8 +1,9 @@
+#!/usr/bin/env python3
 from behave import given, when, then, step
 from page_objects.google_home import GoogleHomePage
 
 
-@given(u'user goes to {website}')
+@given(u'user goes to "{website}"')
 def step_impl(context, website):
     """
     1st step of @selenium-test

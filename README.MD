@@ -24,7 +24,7 @@ This document will show you how to:
 
 Hello,
 
-This is a short API framework written in Python for Raspberry Pi.
+This is a short Selenium framework written in Python for Raspberry Pi.
 Feel free to comment. Thank you in advance.
 
 Sincerely,
@@ -37,8 +37,7 @@ Personal projects code: https://github.com/yes4me
 ---
 
 * Raspberry Pi B+
-* Python 3.5.3
-* install any needed module using pip
+* Python 2.7.13 and 3.5.3
 
 ## Setup
 ---

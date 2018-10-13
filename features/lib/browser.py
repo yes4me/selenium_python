@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
@@ -34,9 +35,9 @@ class Browser(object):
         # return self.driver.find_element_by_class_name(class_name)
         return self.driver.find_element(By.CLASS_NAME, class_name)
 
-    def find_element_by_css(self, selector):
-        # return self.driver.find_element_by_css_selector(selector)
-        return self.driver.find_element(By.CSS_SELECTOR, selector)
+    def find_element_by_css(self, element):
+        # return self.driver.find_element_by_css_selector(element)
+        return self.driver.find_element(By.CSS_SELECTOR, element)
 
     def navigate(self, url):
         self.driver.get(url)
@@ -44,14 +45,18 @@ class Browser(object):
     def close_browser(self):
         self.driver.close()
 
-    def type(self, selector, text):
-        selector.send_keys(text)
+    def displayed(self, element):
+        """Checks if element is displayed"""
+        element.is_displayed()
 
-    def clear_text(self, selector):
-        selector.clear()
+    def type(self, element, text):
+        element.send_keys(text)
 
-    def click(self, selector):
-        selector.click()
+    def clear_text(self, element):
+        element.clear()
 
-    def submit(self, selector):
-        selector.submit()
+    def click(self, element):
+        element.click()
+
+    def submit(self, element):
+        element.submit()
